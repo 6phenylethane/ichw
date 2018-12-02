@@ -24,10 +24,13 @@ def test_exchange():
     assert('257.99675532586' == exchange('EUR', 'JPY', '2.0'))  
     assert('5.5049602355823' == exchange('KWD', 'KYD', '2.0'))  
   
-def testALL():  
+def test_ALL():  
     '''调用测试函数'''  
     test_exchange()  
     print("All tests passed")  
   
-print(exchange(currency_from, currency_to, amount_from))  
-testALL()  
+def main():  
+    print(exchange(currency_from, currency_to, amount_from))  
+    test_ALL()  
+if __name__ == '__main__':  
+    main()  
