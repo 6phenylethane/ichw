@@ -1,3 +1,11 @@
+"""  
+tile.py: print all choice to overspread the wall,  
+and draw it by turtle.  
+__author__ = "Shen Chenxi"  
+__pkuid__  = "1800011777"  
+__email__  = "zzscx@pku.edu.cn"  
+"""  
+
 currency_from = input()  
 currency_to = input()  
 amount_from = input()  
